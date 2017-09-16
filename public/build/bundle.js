@@ -11361,7 +11361,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var images = ['img/myTube copy.png', 'img/pViewBreeze.png', 'img/pViewBreeze2.png', 'img/pViewBreeze3.png', 'img/pViewBreeze4.png', 'img/pViewBreeze5.png', 'img/pViewBreeze6.png', 'img/pViewBreeze7.png', 'img/the_know.jpeg', 'img/my_weather.png', 'img/my_albums.png'];
+var images = ['img/myTube copy.png', 'img/pViewBreeze.png', 'img/pViewBreeze2.png', 'img/pViewBreeze3.png', 'img/pViewBreeze4.png', 'img/pViewBreeze5.png', 'img/pViewBreeze6.png', 'img/pViewBreeze7.png', 'img/the_know.jpeg', 'img/my_weather.png', 'img/my_albums.png', 'img/myTube copy.png'];
 
 var LightboxExample = function (_Component) {
   _inherits(LightboxExample, _Component);
