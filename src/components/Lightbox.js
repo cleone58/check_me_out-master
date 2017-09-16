@@ -13,7 +13,6 @@ const images = [
   'img/the_know.jpeg',
   'img/my_weather.png',
   'img/my_albums.png',
-  'img/myTube copy.png',
 ];
 
 export default class LightboxExample extends Component {
@@ -35,7 +34,7 @@ export default class LightboxExample extends Component {
     return (
       <div>
         <button type="button" onClick={() => this.setState({isOpen: true})}>
-          Open Lightbox
+          View More Of My Projects
         </button>
 
         {isOpen &&
