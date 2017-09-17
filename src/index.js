@@ -31,7 +31,7 @@ class App extends Component {
 
               </div>
 
-              <div id="section2.5">
+              <div>
                 <Lightbox />
 
               </div>

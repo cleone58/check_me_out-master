@@ -110,9 +110,18 @@ z-index: 999;
 .blue-btn:hover { background: #31B0D5; }
 .red-btn { background: grey; }
 .red-btn:hover { background: #C0C0C0; }
+
+
+
+.container .two {
+  margin-left: 20rem;
+  padding-top: 3rem;
+}
+
 .feature-content {
     background: #F2F2F2;
     padding-bottom: 40px;
+    width: 36rem;
 }
 .feature-content-title {
     padding: 0 20px;
@@ -160,6 +169,20 @@ z-index: 999;
 }
 
 /* End Feature CSS */
+
+
+
+.btnltb_container {
+    margin-left: 45% !important;
+
+}
+
+button.btn_ltbBox {
+    position: relative;
+    bottom: 5rem;
+    font-family: serif;
+    border-radius: 5%;
+}
 
 .social {
   margin: 0 200px;

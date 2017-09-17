@@ -32,8 +32,8 @@ export default class LightboxExample extends Component {
     } = this.state;
 
     return (
-      <div>
-        <button type="button" onClick={() => this.setState({isOpen: true})}>
+      <div className='btnltb_container'>
+        <button className='btn_ltbBox' type="button" onClick={() => this.setState({isOpen: true})}>
           View More Of My Projects
         </button>
 
